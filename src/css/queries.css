@@ -1,0 +1,82 @@
+@media (max-width: 52em) {
+  .container {
+    width: 40rem;
+  }
+
+  .calendar-weekdays {
+    margin-left: 9rem;
+  }
+
+  .calendar-days {
+    margin-left: 8.7rem;
+  }
+}
+
+@media (max-width: 42em) {
+  html {
+    font-size: 88%;
+  }
+  .container {
+    width: 35rem;
+  }
+
+  .calendar-weekdays {
+    margin-left: 6rem;
+  }
+
+  .calendar-days {
+    margin-left: 5.5rem;
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 78%;
+  }
+
+  .container {
+    margin-top: 50%;
+    width: 30rem;
+  }
+
+  .calendar-weekdays {
+    margin-left: 3.5rem;
+  }
+
+  .calendar-days {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 73%;
+  }
+
+  .container {
+    width: 25rem;
+    margin-top: 75%;
+  }
+
+  .calendar-month i {
+    font-size: 1.5rem;
+  }
+
+  .calendar-date h4 {
+    font-size: 2rem;
+  }
+
+  .calendar-date p {
+    font-size: 2rem;
+  }
+
+  .calendar-weekdays {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+
+  .calendar-days {
+    font-size: 1.8rem;
+    margin-left: 0.6rem;
+  }
+}

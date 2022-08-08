@@ -4,27 +4,25 @@
   padding: 0;
 }
 
+/* html {
+  font-size: 62.5%;
+} */
+
 body {
   background-color: #9cf10a52;
-  box-shadow: 0px 4px 8px 0 rgba(67, 221, 211, 1),
-    0px 6px 20px 0 rgba(236, 143, 238, 1);
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 .container {
   background-color: whitesmoke;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+
+  margin: 20% auto;
   width: 50rem;
-  transform: translate(-50%, -50%);
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2),
     0px 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 20px;
+  border-radius: 2rem;
 }
-/* .container {
-  width: 540px;
-  transform: translate(-50%, -50) scale(0.9);
-} */
 
 .calendar {
   width: 100%;
